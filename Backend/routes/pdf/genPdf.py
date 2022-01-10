@@ -117,4 +117,4 @@ if __name__ == "__main__":
 			continue
 		setSectionHeader(pdf, convert[key])
 		populateSection(pdf, convert[key])
-	pdf.output('myresume.pdf', 'F')
+	pdf.output('myresume.pdf', 'D')
